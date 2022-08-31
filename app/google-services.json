@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "923195736664",
+    "project_id": "go4lunch-kh",
+    "storage_bucket": "go4lunch-kh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923195736664:android:79442c9fc88846d6a6002d",
+        "android_client_info": {
+          "package_name": "com.khalid.go4lunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923195736664-t1u5ucd7q08vf2pqvffd7csnsvj35t5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khalid.go4lunch",
+            "certificate_hash": "3b28b8c79dec4a190e65c1402eaafd80534621a4"
+          }
+        },
+        {
+          "client_id": "923195736664-mf860v1pv1l5s6222e5pg9uni8mf9ils.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzRpZwOSpNgD2qbOMRDVEn8RRykms1fiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923195736664-mf860v1pv1l5s6222e5pg9uni8mf9ils.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
