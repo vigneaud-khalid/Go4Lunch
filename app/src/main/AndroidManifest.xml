@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.khalid.go4lunch" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +11,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Go4Lunch" >
+
         <activity
-            android:name=".UI.MainActivity"
-            android:exported="false" />
+            android:name=".ui.restaurant_list.ListRestaurantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_list_restaurant"
+            android:theme="@style/Theme.Go4Lunch.NoActionBar" />
+        <activity
+            android:name=".ui.DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.Go4Lunch.NoActionBar" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -26,17 +46,15 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
-
-        <activity
-            android:name=".UI.MapsActivity"
-            android:exported="true"
-            android:label="@string/title_activity_maps" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+        <meta-data
+            android:name="facebook_app_id"
+            android:value="@string/facebook_application_id" />
+        <meta-data
+            android:name="facebook_application_id"
+            android:value="@string/facebook_application_id" />
     </application>
 
 </manifest>
