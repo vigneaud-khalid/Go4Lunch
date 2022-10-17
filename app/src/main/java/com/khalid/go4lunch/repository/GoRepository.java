@@ -11,6 +11,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.khalid.go4lunch.model.Workmate;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -36,7 +37,7 @@ public class GoRepository {
         mFirebaseHelper = FirebaseHelper.getInstance();
         // Uncomment this method to populate your firebase database, it will upload some data
         // Comment it again after the first launch
-        // initData();
+        initData();
     }
 
 
@@ -69,8 +70,8 @@ public class GoRepository {
 
 
     private void initData() {
-//        FirebaseHelper.getInstance().workmatesRef.add(new Workmate("", "", , 55, 4));
-//        FirebaseHelper.getInstance().workmatesRef.add(new Workmate("https://brandandcelebrities.com/wp-content/uploads/2017/04/Franck_Dubosc.jpg", "Franck", "Dubosc", "Paris", 500, 55, 5));
+        FirebaseHelper.getInstance().workmatesRef.add(new Workmate("Ali", "Gator", "2", new HashMap(3,7), 4));
+        FirebaseHelper.getInstance().workmatesRef.add(new Workmate("Franck", "Dubosc", "https://brandandcelebrities.com/wp-content/uploads/2017/04/Franck_Dubosc.jpg", new HashMap(3,7), 5));
     }
 }
 

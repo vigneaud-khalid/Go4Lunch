@@ -11,6 +11,10 @@
     <string name="fb_login_protocol_scheme" translatable="false">fb447303234017782</string>
     <string name="facebook_client_token" translatable="false">    </string>
 
+    <string name="no_workmate">You have no workmates ready to eat</string>
+
+
+
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

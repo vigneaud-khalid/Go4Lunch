@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/drawable/bkg_oval.xml" value="0.1" />
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/drawable/ic_baseline_no_meals_24.xml" value="0.1" />
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/drawable/ic_baseline_people_24.xml" value="0.1" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/activity_list_restaurant.xml" value="0.13496376811594202" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/activity_main2.xml" value="0.1358695652173913" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/content_drawer.xml" value="0.1" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/content_scrolling.xml" value="0.1" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/fragment_mapview.xml" value="0.1" />
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/fragment_restaurant.xml" value="0.1" />
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/fragment_workmates.xml" value="0.11684782608695653" />
+        <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/item_workmate.xml" value="0.1" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/layout/row_layout.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/ordinateur/AndroidStudioProjects/Go4Lunch/app/src/main/res/menu/menu_list_restaurant.xml" value="0.1" />

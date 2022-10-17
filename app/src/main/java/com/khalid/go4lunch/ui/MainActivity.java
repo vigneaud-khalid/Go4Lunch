@@ -85,19 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Registration of app activations for Facebook Login
-        //        FacebookSdk.sdkInitialize(getApplicationContext());
-        //        AppEventsLogger.activateApp(this);
 
-        //        CallbackManager callbackManager = CallbackManager.Factory.create();
-        //
-        //        LoginManager.getInstance().registerCallback(callbackManager,
-        //                new FacebookCallback<LoginResult>() {
-        //                    @Override
-        //                    public void onSuccess(LoginResult loginResult) {
-        //                        // App code
-        //                    }
-        //                }
 
         //Create a handler for the RetrofitInstance interface
         GetData service = RetrofitClient.getRetrofitInstance().create(GetData.class);
@@ -115,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
             //Handle execution failures//
             public void onFailure(Call<List<RetroRestaurants>> call, Throwable throwable) {
                 //If the request fails, then display the following toast//
-                Toast.makeText(MainActivity.this, "Unable to load users", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Unable to load restaurants", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -21,10 +21,9 @@ public class WorkmateViewModel extends ViewModel {
     private final Executor executor;
     private LiveData<List<Workmate>> workmatesLiveData;
 
-    public WorkmateViewModel(GoRepository goRepository, Executor executor, LiveData<List<Workmate>> workmatesLiveData) {
+    public WorkmateViewModel(GoRepository goRepository,Executor executor) {
         this.goRepository = goRepository;
         this.executor = executor;
-        this.workmatesLiveData = workmatesLiveData;
     }
 
 
